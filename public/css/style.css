@@ -1,0 +1,103 @@
+:root {
+    --primary-color: #3b378c;
+    --grey-color: #e4e4e4;
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.btn-primary:hover {
+    color: var(--primary-color);
+    background-color: white;
+}
+
+.form-control {
+    background-color: var(--grey-color);
+    border: none;
+}
+
+.form-icon {
+    position: relative;
+}
+
+.form-icon i {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(50%, -50%);
+}
+
+.form-icon input {
+    padding-right: 45px;
+}
+
+.or {
+    position: relative;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.or:before, .or:after {
+    content: '';
+    width: 42%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #a9a9a9;
+}
+
+.or:before {
+    left: 0;
+}
+
+.or:after {
+    right: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Nav */
+
+nav {
+    background-color: var(--primary-color);
+    padding: 7.5px 0;
+}
+
+nav img {
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul a {
+    display: block;
+    padding: 20px 25px;
+}
+
+/* Section */
+
+section .content-container {
+    background-color: var(--grey-color);
+    padding: 8px 12px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+section{
+    padding-bottom: 20px;
+}
+
